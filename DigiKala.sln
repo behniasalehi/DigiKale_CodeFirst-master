@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiKala", "DigiKala.csproj", "{12B52789-2B48-47AE-8B58-FEBA9BE0A9BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{069232FC-B01D-4617-9292-2C112E6E88AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Usp", "Usp", "{6DE494FE-648D-4885-B009-CB6A078EA9A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udt", "Udt", "{1B3B0A76-A8BF-47A2-954F-5D92C61B7E1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Table", "Table", "{1156B236-E03E-4505-890A-5C5D1B8A4B01}"
+	ProjectSection(SolutionItems) = preProject
+		usp_Create_Category_Table.sql = usp_Create_Category_Table.sql
+		usp_Create_Person_Table.sql = usp_Create_Person_Table.sql
+		usp_Create_Product_Table.sql = usp_Create_Product_Table.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Category", "Category", "{0019272B-9000-44D2-8C7E-A66B8D55D64D}"
+	ProjectSection(SolutionItems) = preProject
+		usp_Select_Category.sql = usp_Select_Category.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B52789-2B48-47AE-8B58-FEBA9BE0A9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B52789-2B48-47AE-8B58-FEBA9BE0A9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B52789-2B48-47AE-8B58-FEBA9BE0A9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B52789-2B48-47AE-8B58-FEBA9BE0A9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DE494FE-648D-4885-B009-CB6A078EA9A9} = {069232FC-B01D-4617-9292-2C112E6E88AA}
+		{1B3B0A76-A8BF-47A2-954F-5D92C61B7E1C} = {069232FC-B01D-4617-9292-2C112E6E88AA}
+		{1156B236-E03E-4505-890A-5C5D1B8A4B01} = {6DE494FE-648D-4885-B009-CB6A078EA9A9}
+		{0019272B-9000-44D2-8C7E-A66B8D55D64D} = {6DE494FE-648D-4885-B009-CB6A078EA9A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C054EBD0-2FCA-4B92-8D48-0843691D156F}
+	EndGlobalSection
+EndGlobal
